@@ -11,7 +11,7 @@ import SwiftUI
 struct LoginPageApp: App {
     var body: some Scene {
         WindowGroup {
-            starterScreen()
+            starterScreen().environmentObject(Status())
         }
     }
 }

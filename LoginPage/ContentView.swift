@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @EnvironmentObject var status: Status
     @State var isModel:Bool = false
     @State var userid = ""
     @State var password = ""
@@ -36,8 +36,8 @@ struct ContentView: View {
             
             
             Button(action: {
-                UserDefaults.standard.set(true, forKey: "status")
-                NotificationCenter.default.post(name: Notification.Name("status"), object: nil)
+                UserDefaults.standard.set("pdp", forKey: "userid")
+                status.listen()
             }, label: {
                 HStack{
                     Spacer()

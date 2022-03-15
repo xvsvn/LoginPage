@@ -14,6 +14,7 @@
 		22C9D5D227DA1E0B00B62F06 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D5D127DA1E0B00B62F06 /* SignUpScreen.swift */; };
 		22FD6DEE27E0484A00E93196 /* starterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD6DED27E0484A00E93196 /* starterScreen.swift */; };
 		22FD6DF027E0487A00E93196 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD6DEF27E0487A00E93196 /* homeScreen.swift */; };
+		22FD6DF227E0A84100E93196 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD6DF127E0A84100E93196 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		22C9D5D127DA1E0B00B62F06 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		22FD6DED27E0484A00E93196 /* starterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starterScreen.swift; sourceTree = "<group>"; };
 		22FD6DEF27E0487A00E93196 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
+		22FD6DF127E0A84100E93196 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				22FD6DEF27E0487A00E93196 /* homeScreen.swift */,
 				22C9D5D127DA1E0B00B62F06 /* SignUpScreen.swift */,
 				22FD6DED27E0484A00E93196 /* starterScreen.swift */,
+				22FD6DF127E0A84100E93196 /* Status.swift */,
 				22C9D5C727DA1A9200B62F06 /* Assets.xcassets */,
 				22C9D5C927DA1A9200B62F06 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				22C9D5C427DA1A9100B62F06 /* LoginPageApp.swift in Sources */,
 				22C9D5D227DA1E0B00B62F06 /* SignUpScreen.swift in Sources */,
 				22FD6DEE27E0484A00E93196 /* starterScreen.swift in Sources */,
+				22FD6DF227E0A84100E93196 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
